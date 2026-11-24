@@ -7,6 +7,7 @@ import UpdatePassword from "./pages/updatePassword";
 import Todo from "./pages/todo";
 import ProtectedRoute from "./protectedRoute";
 import "./styles/alerts.css";
+import NotFound from "./pages/notFound";
 
 function App() {
   return (
@@ -69,6 +70,8 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="*" element={<NotFound />} />
+        
       </Routes>
     </BrowserRouter>
   );

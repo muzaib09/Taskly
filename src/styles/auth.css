@@ -168,6 +168,47 @@
   margin: 25px 0 0;
 }
 
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: #f5f7fb;
+  color: #172b4d;
+}
+
+.not-found h1 {
+  font-size: 100px;
+  margin: 0;
+  color: #172b4d;
+}
+
+.not-found h2 {
+  margin: 10px 0;
+}
+
+.not-found p {
+  color: #8290a5;
+  max-width: 350px;
+  line-height: 1.6;
+}
+
+.not-found-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #172b4d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+
 @media (max-width: 480px) {
   .auth-page {
     align-items: flex-start;
